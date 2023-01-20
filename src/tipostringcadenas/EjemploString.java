@@ -7,6 +7,7 @@ public class EjemploString {
 		
 		boolean esIgual = curso == curso2;
 		System.out.println("curso == curso2 " + esIgual);
+
 		
 		esIgual = curso.equals(curso2);
 		System.out.println("curso.equals(curso2): " + esIgual);
@@ -14,6 +15,10 @@ public class EjemploString {
 		String curso3 = "Programacion Java";
 		esIgual = curso == curso3;
 		System.out.println("curso == curso3: " + esIgual);
+		
+		String curso4 = "Programacion Java";
+		esIgual = curso2 == curso4;
+		System.out.println("curso2 == curso4: " +esIgual);
 	}
 
 }
